@@ -99,6 +99,7 @@ const RoomsPage = () => {
 
   function onBookRoom(roomId){
     console.log("Booking Id: ",roomId)
+    
   }
 
   console.log("Filters: ", filters)
