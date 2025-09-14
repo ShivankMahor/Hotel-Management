@@ -30,13 +30,13 @@ export default function Navbar(){
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.label}
-                  href={item.href}
+                  to={item.href}
                   className="text-[var(--color-text)] hover:text-[var(--color-primary)] px-3 py-2 text-sm font-medium transition-colors"
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
